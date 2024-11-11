@@ -40,7 +40,9 @@ app.get("/",(req,res)=>{
 app.get("/login",(req,res)=>{
     res.send("Welcome to my login page")
 })
-
+app.get("/signup",(req,res)=>{
+    res.send("Github Data Added")
+})
 
 app.get("/github",(req,res)=>{
     res.json(githubnotes)
