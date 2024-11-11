@@ -44,6 +44,10 @@ app.get("/signup",(req,res)=>{
     res.send("Github Data Added")
 })
 
+app.get("/hello",(req,res)=>{
+    res.send("hello friends!")
+})
+
 app.get("/github",(req,res)=>{
     res.json(githubnotes)
 })
